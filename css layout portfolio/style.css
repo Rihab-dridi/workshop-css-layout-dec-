@@ -1,0 +1,90 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  background-color: black;
+  color: white;
+  width: 90%;
+  margin: auto;
+
+}
+main{
+    display: flex;
+    flex-direction: column;
+   justify-content: space-between;
+   row-gap: 150px;
+}
+a {
+  color: white;
+  text-decoration: none;
+}
+
+header img {
+  width: 70px;
+}
+ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+ 
+}
+/* li{
+    
+} */
+a{
+    color: gray;
+    padding: 2px 10px
+}
+
+a:hover{
+    color: white;
+    background-color: gray;
+    border-radius: 10%;
+    cursor:pointer;
+
+   
+}
+
+/* the home section  */
+
+#home{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+  
+}
+.description{
+    /* display: flex;
+    flex-direction: column;
+    justify-content: space-around; */
+    line-height: 65px;
+}
+span{
+    color: gold;
+}
+.description button{
+    padding : 10px 50px;
+    background-color: gold;
+}
+#my_work img {
+    width: 400px ;
+    
+}
+#my_work{
+    text-align: center;
+}
+.projects{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.desc{
+    display: flex;
+    justify-content: space-between;
+}
+.project{
+    margin-top: 20px;
+    border: 1px gray solid ;
+}
